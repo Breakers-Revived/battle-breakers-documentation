@@ -1,5 +1,96 @@
 # Table of Contents
 
-#### This document will be created at a later date. For now, please browse the [docs](../docs) folder.
+---
+## Other documentation repositories
+
+**For detailed and up to date documentation on services other than the World Explorers service, please check out:**
+
+- [Lele's Epic Games API Documentation](https://github.com/LeleDerGrasshalmi/FortniteEndpointsDocumentation)
+- [MixV2's Epic Research](https://github.com/MixV2/EpicResearch)
+
+---
+### World Explorers Service
+- WEX
+  - API
+    - [Entitlement Check](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/entitlementCheck.md)
+  - Calendar
+    - v1
+      - [Timeline](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/calendar/v1/timeline.md)
+  - Cloud Storage
+    - [System](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/cloudstorage/system.md)
+  - Game
+    - [Version Probe](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/game/version-probe.md)
+    - v2
+      - [Item Ratings](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/game/v2/item_ratings/accountId/templateId.md)
+      - [MCP Profile Operations](https://github.com/Breakers-Revived/battle-breakers-documentation/tree/main/docs/World%20Explorers%20Service/wex/api/game/v2/profile/accountId)
+  - Receipts
+    - v1
+      - [Receipts](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/receipts/v1/account/accountId/receipts.md)
+  - Storefront
+    - v2
+      - [Catalog](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/storefront/v2/catalog.md)
+  - v2
+    - [Version Check](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/World%20Explorers%20Service/wex/api/v2/versioncheck/Windows.md)
+
+<details>
+
+<summary>Additional Services</summary>
+
+### Account Service
+- Account
+  - API
+    - [SSO Domains](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Account%20Service/account/api/epicdomains/ssodomains.md)
+    - [OAuth](https://github.com/Breakers-Revived/battle-breakers-documentation/tree/main/docs/Account%20Service/account/api/oauth)
+    - [Public](https://github.com/Breakers-Revived/battle-breakers-documentation/tree/main/docs/Account%20Service/account/api/public)
+
+### Catalog Service
+- Catalog
+  - API
+    - Shared
+      - Bulk
+        - [Offers](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Catalog%20Service/catalog/api/shared/bulk/offers.md)
+      - Namespace
+        - [WEX Bulk Items](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Catalog%20Service/catalog/api/shared/namespace/wex/bulk/items.md)
+
+### Data Router
+- Data Router
+  - API
+    - [Data Router](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Data%20Router/datarouter/api/v1/public/data.md)
+
+### Entitlement Service
+- Entitlement
+  - API
+    - [Entitlement](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Entitlement%20Service/entitlement/api/account/accountId/entitlements.md)
+
+### EULA Tracking Service
+- EULA Tracking
+  - API
+    - [Agreements](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/EULA%20Tracking%20Service/eulatracking/api/public/agreements/egstore/account/accountId.md)
+
+### Friends Service
+- Friends
+  - API
+    - [Friends Summary](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Friends%20Service/friends/api/v1/accountId/summary.md)
+    - [Friends](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Friends%20Service/friends/api/v1/accountId/friends/friendId.md)
+
+### Launcher Service
+- Launcher
+  - API
+    - Assets
+      - [Windows](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Launcher%20Service/launcher/api/public/assets/Windows.md)
+      - Label
+        - [Live](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Launcher%20Service/launcher/api/public/assets/v2/platform/Windows/namespace/wex/catalogItem/a53e821fbdc24181877243a8dbb63463/app/WorldExplorersLive/label/Live.md)
+
+### Lightswitch Service
+- Lightswitch
+  - API
+    - [Bulk Status](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Lightswitch%20Service/lightswitch/api/service/bulk/status.md)
+
+### Price Engine Service
+- Price Engine
+  - API
+    - [Price](https://github.com/Breakers-Revived/battle-breakers-documentation/blob/main/docs/Price%20Engine%20Service/priceengine/api/shared/offers/price.md)
+
+</details>
 
 ###### Generated by [dippyshere](https://github.com/dippyshere) for [Battle Breakers Documentation](https://github.com/dippyshere/battle-breakers-documentation)

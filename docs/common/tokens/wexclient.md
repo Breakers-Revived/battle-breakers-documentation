@@ -16,7 +16,7 @@ The token is base64 encoded from the WexPCClient id:secret pair:
 3cf78cd3b00b439a8755a878b160c7ad:b383e0f4-f0cc-4d14-99e3-813c33fc1e9d
 ```
 
-This basic token can be used on some endpoints that don't require authentication.
+This basic token can be used on some endpoints that only require client authentication.
 
 #### Permissions:
 

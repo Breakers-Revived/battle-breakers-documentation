@@ -42,6 +42,33 @@ POST /wex/api/game/v2/profile/:accountId/QueryProfile?profileId=monsterpit&rvn=-
 ### Request Body
 
 ```json
+{}
+```
+
+___
+
+## Response
+
+#### Status: 200 OK
+
+### Response Headers
+
+| Name                         | Value                                                                                                  |
+|------------------------------|--------------------------------------------------------------------------------------------------------|
+| Date                         | Thu, 29 Dec 2022 05:43:02 GMT                                                                          |
+| Content-Type                 | application/json                                                                                       |
+| Transfer-Encoding            | chunked                                                                                                |
+| X-EpicGames-Profile-Revision | 1884                                                                                                   |
+| X-EpicGames-McpVersion       | prod Release-1.88-1.88 build 107 cl 19310354                                                           |
+| X-EpicGames-ContentVersion   | 1.88.244-r17036752                                                                                     |
+| X-EpicGames-MinBuild         | 17036752                                                                                               |
+| X-Epic-Device-ID             | 68009daed09498667a8039cce09983ed                                                                       |
+| X-Epic-Correlation-ID        | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-0B7F237845879274156B60BDF32E84BB |
+| Connection                   | keep-alive                                                                                             |
+
+### Response Body
+
+```json
 {
   "profileRevision": 1,
   "profileId": "monsterpit",
@@ -75,33 +102,6 @@ POST /wex/api/game/v2/profile/:accountId/QueryProfile?profileId=monsterpit&rvn=-
   "serverTime": "2022-12-24T00:50:48.834Z",
   "responseVersion": 1
 }
-```
-
-___
-
-## Response
-
-#### Status: 200 OK
-
-### Response Headers
-
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 05:43:02 GMT |
-| Content-Type | application/json |
-| Transfer-Encoding | chunked |
-| X-EpicGames-Profile-Revision | 1884 |
-| X-EpicGames-McpVersion | prod Release-1.88-1.88 build 107 cl 19310354 |
-| X-EpicGames-ContentVersion | 1.88.244-r17036752 |
-| X-EpicGames-MinBuild | 17036752 |
-| X-Epic-Device-ID | 68009daed09498667a8039cce09983ed |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-0B7F237845879274156B60BDF32E84BB |
-| Connection | keep-alive |
-
-### Response Body
-
-```json
-
 ```
 
 ___
